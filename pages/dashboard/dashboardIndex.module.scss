@@ -1,0 +1,11 @@
+.more-col {
+  @media (max-width: 768px) {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+}
+
+.control-panel-btn {
+  padding: 30px 0;
+  text-align: right;
+}

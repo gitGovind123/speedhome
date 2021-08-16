@@ -1,0 +1,23 @@
+.progress_bar_step{
+  background:#f1f1f1;
+  color: #000;
+  padding: 10px;
+  position: absolute;
+  width: 100%;
+  top:64px;
+  z-index: 2;
+  .next_text{
+    display: block;
+    font-size: 16px;
+  }
+  .progressbar_div{
+    width:57px;
+  }
+  .progress_bar_col{
+    text-align: -webkit-right;
+  }
+}
+.progress_bar_step.row{
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}

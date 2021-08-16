@@ -1,0 +1,218 @@
+.formHeader {
+  color: white;
+  background-color: #ff0055;
+  justify-content: center !important;
+}
+
+.formBody {
+  background-color: white;
+}
+.formTitle {
+  font-size: 18px !important;
+  font-weight: bold !important;
+}
+.user-container {
+  padding: 0 10px;
+}
+.chatForm {
+  .input::placeholder {
+    color: grey;
+  }
+}
+.property-popup__lendlord-text {
+  text-align: start;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+.chat__form--root {
+  margin-bottom: 15px;
+  background: #f7f7f7;
+  border-radius: 15px;
+  width: 100%;
+  margin-left: 0px;
+  img {
+    width: 75px;
+    height: 82px;
+    border-radius: 15px;
+  }
+  @media (max-width: 768px) {
+    flex-wrap: nowrap;
+    width: 100%;
+    margin-left: 0;
+  }
+}
+.middle-div {
+  margin-top: 7px;
+  font-size: 15px;
+  width: 70%;
+  @media (max-width: 768px) {
+    font-size: 13px;
+  }
+}
+.property-popup__name-price {
+  display: flex;
+}
+.property-info__popup-name {
+  width: 75%;
+  text-align: start;
+  padding-left: 10px;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.property-info__popur-details {
+  padding-left: 10px;
+  margin-right: 10px;
+}
+
+.property-info__popup-date {
+  font-weight: bold;
+  text-align: start;
+  padding-left: 10px;
+}
+
+.property-info__divider {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.property-info__popup-price {
+  font-weight: bold;
+  color: #743d71;
+  margin-right: 5px;
+}
+.property-popup__root {
+  margin: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.input-box {
+  height: 58px;
+  position: relative;
+  //   max-width: 440px;
+  width: 100%;
+  margin: 0 auto 25px;
+}
+.input-box.input-select-box {
+  overflow: visible;
+}
+.chat-request__tenancy-duration {
+  //   margin-left: 15px;
+  margin-bottom: 25px;
+  width: 100%;
+  .css-g1d714-ValueContainer {
+    padding-left: 20px;
+  }
+}
+.intl-tel-input {
+  .country-list {
+    bottom: 21px !important;
+    left: 23%;
+    width: 54%;
+  }
+  .flag-container.selected-dial-code {
+    padding-right: 16px !important;
+  }
+  .form-control {
+    // padding-left: 76px !important;
+  }
+  // max-width: 400px !important;
+}
+.intl-tel-input.separate-dial-code .selected-dial-code {
+  padding-right: 16px !important;
+}
+.inputBox {
+  border: 2px solid #727272 !important;
+  height: 58px !important;
+  position: relative !important;
+  max-width: 400px !important;
+  margin: 0 auto 40px !important;
+}
+
+.intl-tel-input.allow-dropdown input,
+.intl-tel-input.allow-dropdown input[type='text'],
+.intl-tel-input.allow-dropdown input[type='tel'],
+.intl-tel-input.separate-dial-code input,
+.intl-tel-input.separate-dial-code input[type='text'],
+.intl-tel-input.separate-dial-code input[type='tel'] {
+  padding-left: 99px !important;
+}
+
+.checkbox {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 21px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.checkbox-inline-sm {
+  font-size: 15px;
+}
+
+.checkbox > input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+
+.checkbox__icon {
+  margin-right: 15px;
+  font-size: 24px;
+  height: 24px;
+  border: 2px solid #727272;
+  width: 24px;
+  /* Default State */
+  color: #999;
+  /* Active State */
+  position: relative;
+}
+
+.checkbox input:checked ~ .checkbox__icon {
+  background: #ff0055;
+  border-color: #ff0055;
+}
+
+.checkbox input[type='checkbox']:checked ~ .checkbox__icon {
+  background: none;
+  border-color: #727272;
+}
+.checkbox input[type='checkbox']:checked ~ .checkbox__icon::before {
+  box-shadow: inset 2px -2px 0 #727272;
+  height: 7px;
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  width: 12px;
+  transition: all 1s;
+  content: '';
+  position: absolute;
+  top: 5px;
+  left: 4px;
+}
+.propertyDetailPage{
+  &.popupChat {
+    .modal-content {
+      background: transparent !important;
+      border: none;
+      //line-height: 0px
+    }
+    z-index: 10001;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: #000 !important;
+  }
+}

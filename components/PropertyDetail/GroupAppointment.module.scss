@@ -1,0 +1,74 @@
+.popupResponse {
+  z-index: 10001;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  //   background-color: #000 !important;
+  .modal-dialog {
+    margin-top: 7%;
+  }
+  .modal-content {
+    background: transparent !important;
+    border: none;
+    //line-height: 0px
+  }
+  .formBody {
+    background-color: white;
+  }
+  .instantImgHeader {
+    text-align: center;
+  }
+
+  .instantImg {
+    width: 200px;
+  }
+}
+.errorColor {
+  color: #fe4242;
+}
+.orSeperator {
+  margin: 1rem 0;
+  text-align: center;
+}
+.instantInput {
+  max-width: none !important;
+}
+.moveInDate {
+  height: 100%;
+  width: 100%;
+}
+.input-box {
+  height: 58px;
+  position: relative;
+  //   max-width: 440px;
+  width: 100%;
+  margin: 0 auto 25px;
+}
+.input-box.input-select-box {
+  overflow: visible;
+}
+.dynamicDate {
+  z-index: 2;
+}
+.instantDate {
+  margin-left: 0 !important;
+}
+
+.instantTime {
+  padding-left: 20px;
+}
+.instantViewHeader {
+  display: flex !important;
+  text-align: center;
+  justify-content: center !important;
+  background: black !important;
+}
+.groupSubmitBtn {
+  height: 45px;
+  align-items: center;
+}

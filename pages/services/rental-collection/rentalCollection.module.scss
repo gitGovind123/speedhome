@@ -1,0 +1,241 @@
+.rentalbanner {
+  background: {
+    image: url(/img/rental-banner.jpg);
+    position: center;
+    repeat: no-repeat;
+    size: cover;
+  }
+  @media screen and (max-width: 768px) {
+    background-image: url(/img/rental-banner-mobile.jpg);
+    padding: 25% 0;
+  }
+  width: 100%;
+  padding: 10% 0;
+}
+
+.zerobanner__upper-button {
+  width: auto !important;
+}
+
+.rentalbanner__text--container {
+  width: 600px;
+  max-height: 250px;
+  margin-left: 10%;
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+.rentalbanner__text--header {
+  // overflow: hidden;
+  // text-overflow: ellipsis;
+  // display: -webkit-box;
+  // -webkit-line-clamp: 2;
+  // -webkit-box-orient: vertical;
+  font-size: 36px;
+  line-height: 1.25;
+  margin-bottom: 0px;
+}
+.rentalbanner__text--style {
+  font-size: 20px;
+  width: 70%;
+}
+.rentalbanner__text--container-desktop {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.rentalbanner__text--header-desktop {
+  font-size: 18px;
+  font-weight: bold;
+}
+.rentalbanner__text--style-desktop {
+  font-size: 15px;
+
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+
+.rental__heading {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+  @media (max-width: 768px) {
+    margin: 0px 0px 5px 0px;
+  }
+}
+.speedhome-provide__img-wrapper {
+  background: #e9e9fd;
+  border-radius: 50%;
+  flex: 0 0 50px;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.speedhome-provide__img-text-wrapper {
+  flex-basis: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0px;
+  @media (max-width: 768px) {
+    flex-direction: row;
+    flex-basis: 100%;
+    padding: 15px 5px;
+  }
+}
+.speedhome-provide__img-style {
+  width: 25px;
+  height: 25px;
+}
+.speedhome-provide__img-text {
+  text-align: center;
+  max-width: 70%;
+  @media (max-width: 768px) {
+    text-align: left;
+    margin-left: 5%;
+  }
+}
+.speedhome-provide__step-container {
+  display: flex;
+  // justify-content: space-between;
+  width: 60%;
+  flex-wrap: wrap;
+  margin-left: calc(50% - 30%);
+  @media (max-width: 768px) {
+    margin: auto;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+.different-heading__container {
+  // margin-top: 35px;
+  margin-bottom: 50px;
+  text-align: center;
+  .different__head {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .different-heading__text {
+    font-size: 16px;
+  }
+}
+.different-blog-img__container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  .different-blog-img-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-basis: 25%;
+    .we-are-different-img {
+      width: 20px;
+      height: 20px;
+    }
+    .different-img-text-root {
+      .different-img-head {
+        font-weight: bold;
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    flex-direction: column;
+    .different-blog-img-text {
+      flex-direction: row;
+      margin-bottom: 30px;
+    }
+    .different-img-text-root {
+      margin-left: 5%;
+      margin-top: -4px;
+    }
+  }
+}
+.discover-container {
+  display: flex;
+  margin: 40px 0px;
+  .discover-img {
+    width: 400px;
+  }
+  .discover-right_content {
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .discover-head {
+      font-weight: bold;
+      font-size: 18px;
+    }
+    .discover-text {
+      font-size: 16px;
+      margin: 10px 0px;
+    }
+  }
+  @media (max-width: 768px) {
+    flex-direction: column;
+    .discover-right_content {
+      margin-top: 10px;
+      text-align: center;
+    }
+    .discover-img {
+      width: 100%;
+    }
+    .discover-head {
+      width: 90%;
+    }
+  }
+}
+.speedhome-provide-blog__root {
+  width: 60%;
+  margin-left: calc(50% - 30%);
+  margin-bottom: 25px;
+  .speedhome-provide-blog__text {
+    text-align: center;
+  }
+  .speedhome-provide-blog__head {
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    margin: 40px 0px 20px 0px;
+  }
+  .speedhome-provide__img-root {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .speedhome-direction-img {
+    margin-top: -25px;
+  }
+  .speedhome-provide__direction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  @media (max-width: 768px) {
+    width: 100%;
+    margin-left: 0%;
+    .speedhome-provide__img-root {
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .speedhome-direction-img {
+      margin-top: 0px;
+      padding: 20px 0px;
+    }
+  }
+}
+.rental__light-gray {
+  background-color: #f9f9f9;
+  padding: 40px 0px;
+}
+.discover-btn-container button {
+  color: #000;
+}
+.btn_secondary_cancel {
+  background: #a2a2a2 !important;
+}

@@ -1,0 +1,19 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "LNGE4M5BS8.com.speedrent",
+        "paths": [
+          "/chat/*",
+          "/post/*",
+          "/referral/*",
+          "/rent/*",
+          "/buy/*",
+          "/ads/*",
+          "/quicklink/property/reactivate/*"
+        ]
+      }
+    ]
+  }
+}

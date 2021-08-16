@@ -1,0 +1,17 @@
+{
+    "select_profession":"Select your profession",
+    "work_indivisual":"Working Individuals",
+    "work_indivisual_required_1":"1 month Pay Slip or Employment Letter",
+    "work_indivisual_required_2":"Latest 3 months bank statement",
+    "work_indivisual_required_3":"Other documents requested by Alicia",
+    "student":"Students",
+    "business_owners":"Business Owners",
+    "required_documents":"Required Documents",
+    "required_documents_example":"Please upload pdf, jpg/png, excel or word file only",
+    "upload_doc_passport":"Passport",
+    "upload_doc_visa":"Visa",
+    "student_required_1":"Student letter",
+    "student_required_2":"Housemates I/C or Passport",
+    "business_owners_required_1":"SSM Cert (Form 9)",
+    "business_owners_required_2":"Latest 3 months bank statement"
+  }

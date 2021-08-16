@@ -1,0 +1,18 @@
+.profileInfoModal {
+  margin-top: 1rem;
+  .form-group {
+    margin: 20px 0;
+  }
+  .form-group-two {
+    margin: 5px 0;
+    .form-group {
+      margin: 5px 0 !important;
+    }
+  }
+  .form-control {
+    height: 48px;
+  }
+  .react-datepicker-wrapper .react-datepicker__input-container input {
+    height: 48px;
+  }
+}

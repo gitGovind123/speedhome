@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>https://speedhome.com/zh</loc>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>https://speedhome.com/more/about</loc>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>https://speedhome.com/more/landlord</loc>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>https://speedhome.com/more/tenant</loc>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>https://speedhome.com/learn/event</loc>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>https://speedhome.com/learn/blog</loc>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>https://speedhome.com/learn/landlord-faq</loc>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>https://speedhome.com/learn/tenant-faq</loc>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>https://speedhome.com/more/contact</loc>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>https://speedhome.com/more</loc>
+    <changefreq>always</changefreq>
+  </url>
+</urlset>

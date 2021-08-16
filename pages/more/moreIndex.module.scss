@@ -1,0 +1,14 @@
+.more-col {
+  text-align: center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+@media (min-width: 992px) {
+  .more-col {
+    padding-bottom: 55px;
+  }
+}

@@ -1,0 +1,41 @@
+.auction-stats--container {
+  width: 100%;
+  .auction--propertyInfo {
+    width: 100%;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h2 {
+      color: #4885ed;
+      margin-bottom: 1rem;
+    }
+    h4 {
+      color: #404040;
+    }
+    .bidding--info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .auction--tenant-list {
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h4 {
+      margin-bottom: 1rem;
+    }
+  }
+  .submitBidCrBtn {
+    color: #fff;
+  }
+  .submitBidCrBtnSuccess {
+    background-color: #155724;
+    border: #155724;
+  }
+}

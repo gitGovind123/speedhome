@@ -1,0 +1,266 @@
+.l-footer {
+  background: #000;
+  color: #fff;
+  padding: 40px 0;
+  font-size: 14px;
+  line-height: 1.52;
+
+  a {
+    color: #fff;
+  }
+
+  p {
+    color: #fff;
+  }
+
+  .app-download-link {
+    a {
+      display: inline-block;
+
+      &:first-child {
+        margin-right: 25px;
+      }
+    }
+
+    img {
+      max-width: 143px;
+    }
+  }
+
+  .follow-us-link {
+    a {
+      margin-right: 1rem;
+    }
+    img {
+      max-width: 37px;
+    }
+  }
+
+  .footer-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    &.two-col {
+      li {
+        display: inline-block;
+        vertical-align: top;
+        margin-right: -0.25em;
+
+        &:nth-child(odd) {
+          width: 50%;
+        }
+
+        &:nth-child(even) {
+          width: 50%;
+        }
+      }
+    }
+
+    .footer-dropdown-menu {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      padding: 0;
+      margin: 0;
+      background: #4885ed;
+      z-index: 9;
+      display: none;
+
+      li {
+        width: 100% !important;
+        display: block !important;
+        padding: 10px 20px 10px 10px;
+      }
+    }
+
+    .opened-li {
+      .footer-dropdown-menu {
+        display: block;
+      }
+    }
+  }
+
+  .footer-menu > li {
+    padding: 10px 20px 10px 10px;
+    position: relative;
+  }
+
+  .footer-list-dropdown {
+    position: relative;
+  }
+  .footer-list-dropdown > a {
+    display: block;
+    margin-right: 15px;
+  }
+
+  .footer-list-dropdown .footer-link-toggle {
+    padding: 5px;
+    font-size: 14px;
+    position: absolute;
+    right: 15px;
+    top: 6px;
+    cursor: pointer;
+  }
+  .footer-dropdown-menu {
+    display: none;
+  }
+}
+
+.footer-top {
+  .container {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #fff;
+  }
+
+  .row {
+    .col {
+      .footer-block {
+        margin-bottom: 30px;
+      }
+
+      &:first-child {
+        .footer-block {
+          &:first-child {
+            -ms-flex-preferred-size: 60%;
+            flex-basis: 60%;
+            padding: 0;
+            max-width: none !important;
+          }
+        }
+      }
+    }
+  }
+
+  h3 {
+    font-size: 20px;
+    color: #ffe100;
+    margin-bottom: 20px;
+  }
+}
+
+.company-registration {
+  margin-top: 20px;
+  margin-bottom: 7px;
+}
+
+.address-list {
+  .slot {
+    display: -ms-flexbox;
+    display: flex;
+    padding: 10px 0;
+
+    div:first-child {
+      margin-right: 20px;
+      font-size: 22px;
+      width: 40px;
+    }
+  }
+}
+
+.footer-bottom {
+  padding-top: 30px;
+
+  .social-networks {
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    .icons {
+      height: 1rem;
+      color: #fff;
+      fill: #fff;
+    }
+    li {
+      display: inline-block;
+      padding: 0 10px;
+    }
+  }
+}
+
+.subscribe-form {
+  height: 56px;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 10px;
+  margin-bottom: 60px;
+  width: 100%;
+  position: relative;
+
+  .form-group {
+    margin: 0;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+  }
+
+  .form-control {
+    height: 100%;
+    border: 0;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    color: #727272;
+    border-radius: 10px 0 0 10px;
+  }
+  .form-control:hover,
+  .form-control:active,
+  .form-control:focus {
+    background: #fff !important;
+  }
+
+  button {
+    height: 100%;
+    border: 0;
+    padding: 10px;
+    font-size: 16px;
+    width: 56px;
+    background: #ff0055;
+    color: #fff !important;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: normal;
+    line-height: 1;
+    margin-bottom: 0;
+    outline: none;
+    text-align: center;
+    border-radius: 0 10px 10px 0;
+  }
+  button:hover,
+  button:active,
+  button:focus {
+    background-color: #998700;
+    border-color: #998700;
+    color: #fff !important;
+  }
+
+  .invalid-feedback {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer-top {
+    .row {
+      .col-12 {
+        &:first-child {
+          -ms-flex-order: 2;
+          order: 1;
+        }
+
+        &:nth-child(2) {
+          -ms-flex-order: 3;
+          order: 2;
+        }
+
+        &:last-child {
+          -ms-flex-order: 1;
+          order: 3;
+        }
+      }
+    }
+  }
+}

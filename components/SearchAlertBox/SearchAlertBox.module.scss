@@ -1,0 +1,26 @@
+@media (max-width: 400px) {
+  .alert-ui-card {
+    text-align: center;
+    .pull-left {
+      float: none;
+      display: block;
+    }
+    .float-right {
+      float: none !important;
+      margin: 5px 0;
+    }
+    .text-muted {
+      font-size: 14px;
+    }
+  }
+}
+
+.btn_notify_me {
+  background-color: #4885ed !important;
+  color: #fff !important;
+}
+
+.btn_notify_me:hover {
+  background-color: #ffe100 !important;
+  color: #000 !important;
+}

@@ -1,0 +1,59 @@
+{
+    "locales": ["en", "my", "zh"],
+    "defaultLocale": "en",
+    "pages": {
+      "*": ["common"],
+      "/": ["home"],
+      "/ads/[id]": ["property-details"],
+      "/rental-bidding/details/[id]": ["property-details"],
+      "/details/[id]": ["property-details"],
+      "/iklan/[id]": ["property-details"],
+      "/guanggao/[id]": ["property-details"],
+ 
+      "/post": ["post"],
+      "/post/gps/[ref]": ["post"],
+      "/post/homerunner/[ref]": ["post"],
+      "/post/share/[ref]": ["post"],
+      "/post/post-for-rent/[ref]": ["post"],
+      "/post/edit/[ref]": ["post"],
+      "/post/edit/gps/[ref]": ["post"],
+      "/post/thanks": ["post"], 
+      
+      "/more": ["more"],
+      "/more/about":["more"],
+      "/more/contact": ["more"],
+      "/more/landlord": ["more"],
+      "/more/tenant": ["more"],
+      "/more/tenant/no-deposit":["more"],
+      "/more/landlord/how":["more"],
+      "/more/refer":["more"],
+      "/more/refer/faq":["more"],
+      "/more/refer/termscondition":["more"],
+      "/more/price-widget": ["more"],
+
+      "/services/zero-deposit": ["service"],
+      "/services/insurance":["service", "more"],
+      "/services/rental-collection":["service"],
+      "/services/homerunner":["service"],
+      "/services/ocd": ["service"],
+
+      "/learn/event": ["learn"],
+      "/learn/blog": ["learn"],
+      "/learn/landlord-faq": ["learn"],
+      "/learn/tenant-faq": ["learn"],
+
+      "/dashboard": ["dashboard"],
+      "/dashboard/profile": ["dashboard", "deal"],
+      "/dashboard/listings": ["dashboard"],
+      "/dashboard/favorites": ["dashboard"],
+      "/dashboard/rental": ["dashboard"],
+      "/dashboard/chat": ["dashboard"],
+      "/dashboard/listings/tenantsearch/[propertyId]": ["dashboard"],
+
+      "/hot": ["hot"],
+      "/refer/[rid]": ["refer"],
+
+      "/home-ownership/[id]":["home-ownership"]
+
+    }
+  }

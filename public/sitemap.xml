@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/siteindex.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://speedhome.com/sitemap-main.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://speedhome.com/sitemap-location.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://speedhome.com/sitemap-mainareas.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://speedhome.com/sitemap-services.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://speedhome.com/sitemap-subareas.xml</loc>
+  </sitemap>
+</sitemapindex>

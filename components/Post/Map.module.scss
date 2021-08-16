@@ -1,0 +1,59 @@
+.post_page_gps {
+  margin-bottom: 2rem;
+  #confirm_gps {
+    height: 330px;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #727272;
+    .inner-gps {
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      background-color: rgb(229, 227, 223);
+    }
+  }
+  .confirm-gps {
+    max-width: 600px;
+  }
+  .confirm-gps.create-listing {
+    padding-top: 20px;
+  }
+  .confirm-gps .maps-container {
+    border: 2px solid #727272;
+    margin-bottom: 30px;
+  }
+  .confirm-gps .maps-container img,
+  .confirm-gps .maps-container iframe {
+    width: 100%;
+  }
+  .confirm-gps .btn {
+    min-width: 120px;
+  }
+  .confirm-gps h2 {
+    font-size: 22px;
+  }
+}
+
+.btn-post {
+    margin-top: 40px;
+
+    button {
+      float: right;
+      background-color: #4885ed !important;
+      color: #fff !important;
+      font-weight: 500 !important;
+      text-transform: capitalize !important;
+      padding: 8px 35px !important;
+      border-radius: 8px !important;
+      font-size: 16px !important;
+      @media only screen and (max-width: 768px) {
+        margin-top: 25px;
+        padding: 12px !important;
+        font-weight: 600 !important;
+        width: 100%;
+      }
+    }
+  }

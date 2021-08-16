@@ -1,0 +1,107 @@
+.profile-slot {
+  padding: 10px 0;
+  border-top: 2px solid #707070;
+  position: relative;
+  //   z-index: 999;
+}
+.profile-slot:first-child {
+  border-top: 0;
+}
+.my-facebook-button-class {
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  background: #3b5998;
+  color: #fff;
+  margin-top: 1rem;
+  height: 55px;
+  width: 100%;
+  font-size: 18px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media screen and (max-width: 767px) {
+    height: 35px;
+    font-size: 14px;
+  }
+  @media screen and (max-width: 500px) {
+    height: 35px;
+    font-size: 13px;
+  }
+}
+
+.form-group {
+  margin: 10px 0;
+  position: relative;
+}
+
+.circle {
+  border-radius: 150px;
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
+  border: 3px solid #757575;
+  position: relative;
+  padding: 1px;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.upload-options-avatar,
+.upload-options-avatar input {
+  cursor: pointer;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+.upload-options-avatar input {
+  opacity: 0;
+  z-index: 1;
+}
+
+.profile-slot {
+  margin-bottom: 20px;
+}
+.radio-tab {
+  border-bottom: 2px solid;
+  padding: 0 15px;
+  a {
+    font-weight: bold;
+    // text-transform: uppercase;
+    cursor: pointer;
+    color: white !important;
+    border-bottom: 3px solid #727272;
+    border-radius: 10px 10px 0 0;
+    padding: 11px 55px 0 55px;
+    font-size: 18px;
+    background: #727272;
+
+    .inactive-tenant {
+      margin-left: -15px;
+    }
+
+    .inactive-landloard {
+      margin-right: -15px;
+    }
+
+    &.active {
+      background: black;
+      border-bottom: 3px solid #000;
+      border-radius: 10px 10px 0 0;
+      padding: 11px 55px 0 55px;
+      font-size: 18px;
+      &.landlord {
+        border-radius: 10px 10px 0 0;
+      }
+      &.tenant {
+        border-radius: 10px 10px 0 0;
+      }
+    }
+  }
+}

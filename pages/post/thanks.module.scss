@@ -1,0 +1,222 @@
+.frame-thankyou {
+  background: #f5f5f5;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.frame-thankyou .btn {
+  margin: 10px 0;
+}
+.frame-thankyou .col-download {
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.frame-thankyou .col-download a {
+  margin: 0 15px;
+  width: 150px;
+}
+.frame-thankyou .content-title {
+  margin: 10px 20px;
+  font-size: 16px;
+  display: block;
+}
+@media (min-width: 992px) {
+  .frame-thankyou {
+    text-align: left;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+  .frame-thankyou .cta-download {
+    margin-left: auto;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+}
+.middle-md {
+  align-items: center;
+}
+.mb-40-30 {
+  margin-bottom: 40px;
+  @media only screen and (max-width: 768px) {
+    margin-bottom: 30px;
+  }
+}
+.mb-20-10 {
+  margin-bottom: 20px;
+  @media only screen and (max-width: 768px) {
+    margin-bottom: 10px;
+  }
+}
+.mb-10-5 {
+  margin-bottom: 10px;
+  @media only screen and (max-width: 768px) {
+    margin-bottom: 5px;
+  }
+}
+
+.font-text {
+  @media only screen and (max-width: 768px) {
+    font-size: 1.1em;
+  }
+}
+.additional-sub-text {
+  font-size: 19px;
+  padding: 0 5px;
+  margin: 0;
+  text-align: left;
+}
+.additional-label-text {
+  font-size: 15px;
+  padding: 0 5px;
+  margin: 0;
+  text-align: left;
+}
+.additional-select {
+  width: 100%;
+  height: 48px;
+  border-radius: 10px;
+  border: 1px solid #77777769;
+  color:#000;
+
+  position: relative;
+  font-size: 14px;
+  letter-spacing: .01rem;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-left: 15px;
+  margin-left: 0;
+  background: #FFFFFF;
+  line-height: 25px;
+  outline: none;
+}
+.feedback-sub-text {
+  font-size: 18px;
+  padding: 0 5px;
+  margin: 0;
+}
+.feedback-btn-group {
+  margin: 20px auto;
+  position: relative;
+
+  @media only screen and (max-width: 768px) {
+    margin: 35px 0 20px;
+  }
+}
+
+.text_feedback {
+  color: #007bff;
+  font-size: 16px;
+  margin-top: 7px;
+  @media only screen and (max-width: 768px) {
+    position: absolute;
+    bottom: 45px;
+  }
+}
+.text_feedback.left {
+  margin-right: 1rem !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .text_feedback.right {
+    right: 0;
+  }
+}
+
+.feedback_error {
+  font-size: 13px;
+  color: #fe4242 !important;
+  position: absolute;
+  bottom: -22px;
+  margin-left: 3px !important;
+}
+.feedback_error_textArea {
+  float: left;
+  font-size: 13px;
+  color: #fe4242 !important;
+  width: 100%;
+  text-align: left;
+}
+
+.feedback-message-text {
+  min-width: 100%;
+  width: 100%;
+  font-size: 17px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 2px solid #d3d3d3;
+}
+
+.feedback-message-label {
+  float: left;
+  font-size: 12px;
+}
+@media (max-width: 375px) {
+  .frame-thankyou .col-download a {
+    margin: 0 5px;
+    width: 120px;
+  }
+  .feedback-message-label {
+    font-size: 12px;
+  }
+}
+
+.additional-div {
+    margin: 10px 10px;
+    width: 95%;
+    height: 100%;
+    align-items: center;
+}
+
+.feedback-btn-submit {
+  float: right;
+  background-color: #4885ed !important;
+  color: #fff !important;
+  font-weight: 600 !important;
+  text-transform: capitalize !important;
+  padding: 8px 50px !important;
+  border-radius: 8px !important;
+  font-size: 16px !important;
+  @media only screen and (max-width: 768px) {
+    //padding: 8px 100% !important;
+    width: 100%;
+  }
+}
+.feedback-btn-submit.focus,
+.feedback-btn-submit:focus,
+.feedback-btn-submit:hover,
+.feedback-btn-submit.active,
+.feedback-btn-submit:active {
+  outline: 0;
+}
+
+.link-gray {
+  color: #727272;
+  background: none;
+}
+
+.btn-skip-link {
+  float: right;
+  margin-right: 15px;
+  padding: 10px !important;
+  border: 1px solid transparent !important;
+}
+.btn-skip-link:hover {
+  border: 1px solid transparent !important;
+}
+.app-label-text {
+  font-size: 18px;
+  padding: 0 5px;
+  margin: 0;
+  text-align: center;
+  @media only screen and (max-width: 768px) {
+    font-size: 14px;
+  }
+}
+.app-frame {
+  padding: 0 0 40px;
+
+}

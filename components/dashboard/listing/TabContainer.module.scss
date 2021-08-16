@@ -1,0 +1,38 @@
+.tabs__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.tabs__btnContainer {
+  border-bottom: 2px solid #e0e0e0;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+.tabs__btnContainerActive {
+  border-color: #2c76ec;
+}
+
+.tabs__btn {
+  background-color: transparent !important;
+  border: none !important;
+  outline: none !important;
+  color: #a2a2a2 !important;
+  font-size: 18px !important;
+  &:focus {
+    outline: none !important;
+  }
+  @media (max-width: 600px) {
+    font-size: 13px !important;
+    padding: 0.37rem 1rem;
+  }
+}
+.tabs__btnContainerActive .tabs__btn {
+  color: #2c76ec !important;
+}
+.tabs__result {
+  margin-top: 2rem;
+}

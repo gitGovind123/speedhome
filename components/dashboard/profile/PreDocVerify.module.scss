@@ -1,0 +1,59 @@
+.predoc__tick--img--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  img {
+    height: 6rem;
+    width: 6rem;
+  }
+  span {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    color: #000;
+  }
+}
+.predoc__tick--steps--container {
+  margin-top: 2rem;
+  text-align: center;
+  div {
+    display: flex;
+    align-items: center;
+    position: relative;
+    &:not(:last-child) {
+      margin-bottom: 1rem;
+    }
+    p {
+      width: 100%;
+      border-bottom: 2px dashed #727272;
+      text-align: left;
+    }
+    .doneIcon {
+      text-align: right;
+      position: absolute;
+      right: 0;
+      bottom: 20px;
+      color: green;
+    }
+  }
+
+  .verifyBtn {
+    margin-top: 2rem;
+    text-align: center;
+
+    &:hover {
+      color: #fff !important;
+    }
+  }
+  .reSubmitBtn {
+    background-color: #4885ed;
+    color: #fff !important;
+    margin-left: 1rem;
+    border: 1px solid;
+    &:hover {
+      color: #4885ed !important;
+      background-color: #fff !important;
+      border-color: #4885ed !important;
+    }
+  }
+}

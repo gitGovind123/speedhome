@@ -1,0 +1,45 @@
+.share__root-container {
+  .share__heading--text {
+    padding: 30px 0px;
+  }
+}
+.share__card--context {
+  flex-basis: 30%;
+  color: #000000;
+  @media (max-width: 768px) {
+    padding-bottom: 20px;
+  }
+}
+.share__card--context:hover {
+  box-shadow: 0 0 5px #808080;
+}
+.share__img-container {
+  height: 200px;
+}
+.share__title {
+  padding-top: 10px;
+  padding-left: 5px;
+  font-weight: bold;
+}
+.share__date {
+  padding-left: 5px;
+  padding-bottom: 5px;
+  width: 100%;
+}
+.share__title,
+.share__title:hover {
+  color: #000000;
+}
+.share__date,
+.share__date:hover {
+  color: #000000;
+}
+.share__show-more--container {
+  padding: 40px 0px;
+  @media (max-width: 768px) {
+    padding: 0px 0px 40px 0px;
+  }
+  a {
+    border-bottom: 1px solid #4885ed;
+  }
+}

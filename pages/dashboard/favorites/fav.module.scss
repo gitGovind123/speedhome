@@ -1,0 +1,21 @@
+.fav-section {
+  padding-bottom: 3rem;
+}
+.result-count {
+  display: inline-block;
+  font: 16px/1.2 'Poppins', sans-serif;
+}
+
+.PropertyList__item--wrapper {
+  flex-basis: calc(33% - 20px);
+  margin: 10px;
+  @media (max-width: 1133px) {
+    flex-basis: calc(33% - 20px);
+  }
+  @media (max-width: 860px) {
+    flex-basis: calc(50% - 20px);
+  }
+  @media (max-width: 575px) {
+    flex-basis: 100%;
+  }
+}

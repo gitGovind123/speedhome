@@ -1,0 +1,16 @@
+{
+    "dashboard_title":"Dashboard",
+    "text_profile":"Profile",
+    "text_my_listings":"My Listings",
+    "text_chat":"Chat",
+    "text_favorites":"Favourites",
+    "text_speedsign":"Speedmanage",
+    "text_rental_collection":"Rental Collection",
+    "text_log_out":"Logout",
+    "profile_title":"Profile",
+    "Listing_title":"My Listings",
+    "text_add_property":"Add Property",
+    "favourites_title":"Favourites",
+    "rental_collection_title":"Rental Collection",
+    "tenant_search_title":"Tenant Search"
+  }

@@ -1,0 +1,89 @@
+.post_page_lead {
+  margin-bottom: 40px;
+  .meta-wrap {
+    display: flex;
+    float: right;
+    @media only screen and (max-width: 768px) {
+      float: none;
+    }
+    .btn.btn.link-gray {
+      margin-right: 5px;
+      color: #727272;
+      &:hover {
+        color: #4885ed;
+      }
+      @media only screen and (max-width: 768px) {
+        margin-top: 25px;
+        padding: 12px !important;
+        width: 30%;
+      }
+    }
+    .nextButton {
+      float: right;
+      background-color: #4885ed !important;
+      color: #fff !important;
+      font-weight: 500 !important;
+      text-transform: capitalize !important;
+      padding: 8px 35px !important;
+      border-radius: 8px !important;
+      font-size: 16px !important;
+      @media only screen and (max-width: 768px) {
+        margin-top: 25px;
+        padding: 12px !important;
+        font-weight: 600 !important;
+        width: 100%;
+      }
+    }
+  }
+  select {
+    width: 43% !important;
+    height: 48px;
+    border-radius: 10px;
+    border: 1px solid #77777769;
+    color: #000;
+    @media (max-width: 767px) {
+      width: 100%;
+    }
+  }
+  .form-control {
+    width: 100%;
+    height: 48px;
+    border-radius: 10px;
+    border: 1px solid #77777769;
+    color: #000;
+
+    position: relative;
+    font-size: 14px;
+    letter-spacing: 0.01rem;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-left: 15px;
+    margin-left: 0;
+    background: #ffffff;
+    line-height: 25px;
+    outline: none;
+  }
+  .text-center {
+    text-align: center !important;
+  }
+  @media (max-width: 767px) {
+    .text-center {
+      text-align: left !important;
+    }
+  }
+  .select_property_details {
+    text-align: left;
+  }
+  .login__error--msg {
+    color: #ff0000;
+    font-size: 11px;
+    margin-top: 8px;
+  }
+  .speedmanage-link_text {
+    text-align: center;
+    a {
+      color: #404040;
+      text-decoration: underline !important;
+    }
+  }
+}

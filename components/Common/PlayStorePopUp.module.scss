@@ -1,0 +1,33 @@
+.playstore-popup {
+  display: none;
+  height: 4.5rem;
+  @media (min-width: 320px) and (max-width: 480px) {
+    display: block !important;
+  }
+}
+
+.shadow-sm {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.store-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+  background: #ffe100;
+  border: 2px solid transparent;
+  border-radius: 9px;
+  padding: 5px;
+  height: 50px;
+
+  margin-right: 0.5rem;
+}
+.install-btn {
+  color: #f05;
+  border: 2px solid #f05;
+  padding: 5px 12px;
+  margin-left: 5px;
+}

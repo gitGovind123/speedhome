@@ -1,0 +1,39 @@
+.popupResponse {
+  .modal-dialog {
+    margin-top: 7%;
+  }
+  .modal-content {
+    background: transparent !important;
+    border: none;
+    //line-height: 0px
+  }
+  z-index: 10001;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.popupResponseShare {
+  .modal-content {
+    padding-top: 100px;
+  }
+}
+
+.formHeader {
+  color: white;
+  background-color: #ff0055;
+  justify-content: center !important;
+}
+
+.formBody {
+  background-color: white;
+}
+.formTitle {
+  font-size: 18px !important;
+  font-weight: bold !important;
+}

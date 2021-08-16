@@ -1,0 +1,68 @@
+.Icon {
+  /* Size variables */
+  --size-mini: 0.8rem;
+  --size-small: 0.8rem;
+  --size-medium: 2rem;
+  --size-big: 3rem;
+  --size-massive: 4rem;
+  transition: all 0.3s;
+}
+
+/*DIFFERENT SIZED VERSIONS*/
+.Icon--mini {
+  height: var(--size-mini);
+  width: var(--size-mini);
+}
+.Icon--middle {
+  height: 1rem;
+  width: 1rem;
+}
+.Icon--small {
+  height: var(--size-small);
+  width: var(--size-small);
+}
+.Icon--medium {
+  height: var(--size-medium);
+  width: var(--size-medium);
+}
+.Icon--big {
+  height: var(--size-big);
+  width: var(--size-big);
+}
+.Icon--massive {
+  height: var(--size-massive);
+  width: var(--size-massive);
+}
+
+/*DIFFERENT COLORED/FILLED/STROKED VERSIONS*/
+.Icon--colored {
+  fill: var(--color-primary);
+}
+.Icon--black {
+  fill: #000;
+}
+.Icon--grey {
+  fill: #a2a2a2;
+}
+.Icon--white {
+  fill: #fff;
+}
+.Icon--blue {
+  fill: #4885ed;
+}
+
+.Icon--light {
+  fill: var(--color-text-secondary);
+}
+
+.Icon--light:hover {
+  fill: var(--color-text-tertiary);
+}
+.Icon--stroked {
+  fill: none;
+  stroke: var(--color-secondary);
+  stroke-width: 3px;
+}
+.Icon--starred {
+  fill: var(--color-yellow) !important;
+}
